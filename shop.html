@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;500&display=swap" rel="stylesheet">
+    <script src="codigo.js"></script>
+    <link rel="icon" href="compra.jpg">
+    <title>Tienda</title>
+</head>
+<body>
+    <center><h1>Tienda online</h1></center>
+
+    <br>
+
+    <form name="compra">
+        <fieldset class="fieldCelu">
+            <legend>Seleccione el smartphone</legend>
+            <select id="celular">
+                <option value="250000">Samsung S22 - $250000</option>
+                <option value="500000">Iphone 14 - $500000</option>
+                <option value="200000">Motorola Edge - $200000</option>
+                <option value="60000">TCL 20SE - $60000</option>
+                <option value="150000">Huawei P40 Lite - $150000</option>
+            </select>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Seleccione espacio de almacenamiento deseado (puede agregar más de una tarjeta de memoria)</legend>
+            8 GB - $1000<input type="checkbox" id="gb-1000" value="1000"> 
+            <br>
+            16 GB - $2000<input type="checkbox" id="gb-2000" value="2000"> 
+            <br>
+            32 GB - $4000<input type="checkbox" id="gb-4000" value="4000"> 
+            <br>
+            64 GB - $8000<input type="checkbox" id="gb-8000" value="8000"> 
+            <br>
+            128 GB - $16000<input type="checkbox" id="gb-16000" value="16000"> 
+        </fieldset>
+
+        <br>
+
+        <fieldset class="fieldPago">
+            <legend>Método de Pago</legend>
+            <input type="radio"> Eféctivo
+            <input type="radio"> Transferencia
+            <input type="radio"> Débito
+            <input type="radio"> Crédito
+        </fieldset>
+
+        <br>
+
+        <center><button onclick="calcular()">Comprar</button></center>
+    </form>  
+
+    <br>
+    
+    <a href="index.html">Volver al Inicio</a>
+
+    <br> <br> <br>
+</body>
+</html>
