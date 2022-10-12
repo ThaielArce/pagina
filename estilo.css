@@ -1,0 +1,88 @@
+.logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 30%;
+}
+
+h1 {
+    font-family: 'Silkscreen', cursive;
+    font-size: 50px;
+}
+
+body {
+    background-color: rgb(208, 234, 243);
+}
+
+p {
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+}
+
+fieldset {
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 20px;
+    
+}
+
+body {
+    height: 100vh;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+li {
+    color: rgb(218, 32, 32);
+    list-style: none;
+}
+
+.presentacion {
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+
+.satelite {
+    width: 400px;
+    height: 300px;
+    border-radius: 10%;
+}
+
+.redes {
+    border-radius: 10%;
+    width: 300px;
+    height: 300px;
+}
+
+.soporte {
+    width: 400px;
+    height: 400px;
+}
+
+.p {
+    width: 400px;
+    height: 30px;
+}
+
+.inicioField {
+    width: 200px;
+    height: 100px;
+}
+
+.casillaTexto {
+    resize: none;
+    width: 1000px;
+    height: 200px;
+}
+
+.fieldPago {
+    width: 400px;
+    height: 50px;
+}
+
+.fieldCelu {
+    width: 200px;
+    height: 50px;
+}
