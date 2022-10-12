@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;500&display=swap" rel="stylesheet">
+    <link rel="icon" href="soporte.jpg">
+    <script src="codigo.js"></script>
+    <title>Soporte</title>
+</head>
+<body>
+        <center>
+            <h1>Soporte Técnico</h1> 
+
+            <br>
+
+            <p class="p">Telefono: +54 9 0351 - 202 - 5490</p>
+            <br>
+            <p class="p"><b>Redes Sociales:</b></p>
+            <p class="p">Instragam: @tharce</p> 
+            <p class="p">Facebook: TharceSA</p> 
+            <p class="p">E-Mail: tharce@telefonia.com</p> 
+        </center
+
+        <br>
+
+        <center>
+            <img src="people.jpg" onmouseout="this.src='people.jpg';" class="redes" alt="cambiarImagen" onmouseover="this.src='161.jpg';">
+        </center>
+
+    <br>
+    
+    <fieldset class="soporte">
+        <legend>Deje su reclamo</legend>
+        <form class="formularioSoporte">
+            Nombre y Apellido: <input type="text" id="txtNombre" class = "txtNom" onkeypress=" return soloLetras(event)">
+            <br> <br>
+            E-Mail: <input type="email" class="txtMail">
+            <br> <br>
+            Reclamo: 
+            <br>
+            <textarea class="casillaTexto"></textarea>        
+            <br> <br>
+            <button onclick="enviar()">Enviar</button>
+        </form>
+    </fieldset>
+
+    <br>
+
+    <a href="index.html">Volver al Inicio</a>
+
+    <br> <br> <br> 
+</body>
+</html>
